@@ -1,2 +1,2 @@
 # Basic-Portfolio
-UNC Coding Boot Camp - Recommended Portfolio Assignment - Basic-Portfolio
+ UNC Coding Boot Camp - Recommended Portfolio Assignment
