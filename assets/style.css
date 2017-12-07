@@ -1,0 +1,280 @@
+* {
+	box-sizing: border-box;
+}
+
+.icons {
+	height: 67px;
+	width: 67px;
+}
+
+.icons:first-of-type {
+	margin-left: -1px;
+}
+
+.icons-stack {
+	height: 62px;
+	width: 62px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+}
+
+.connect-section {
+	box-sizing: border-box;
+	float: right;
+	width: 270px;
+	border: solid 1px #cccccc;
+	padding-left: 31px;
+	padding-right: 31px;
+	padding-bottom: 20px;
+	background: white;
+	box-shadow: 5px 5px 2.5px #888888;
+	border-radius: 5px;
+}
+
+#connect-heading {
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+#connect-line {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.my-name {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 32px;
+	color: white;
+	background: #4AAAA5;
+	display: inline-block;
+	padding-left: 33px;
+	padding-right: 33px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+h2.headings {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 32px;
+	padding-top: 10px;
+}
+
+.teal-words {
+	color: #4AAAA5;
+}
+
+li {
+	display: inline;
+	color: grey;
+}
+
+.nav-link {
+	color: grey;
+	text-decoration: none;
+}
+
+.nav-text {
+	padding-top: 20px;
+	float: right;
+}
+
+.nav-about {
+	margin-right: 10px;
+}
+
+.nav-portfolio {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.nav-contact {
+	margin-left: 10px;
+}
+
+.main-text {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: grey;
+	line-height: 150%;
+}
+
+body {
+	box-sizing: border-box;
+	background: url('../images/background.png');
+}
+
+.profile-pic {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	/*border: solid 1px grey;*/
+	box-shadow: 2.5px 2.5px 1.25px #888888;
+	border-radius: 5px;
+}
+
+.main-section {
+	box-sizing: border-box;
+	max-width: 650px;
+	min-width: 650px;
+	padding-left: 33px;
+	padding-right: 33px;
+	border: 1px #cccccc solid;
+	float: left;
+	clear: right;
+	background: white;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	margin-bottom: 40px;
+	box-shadow: 5px 5px 2.5px #888888;
+	border-radius: 5px;
+}
+
+#main-section-line {
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+.content-area {
+	box-sizing: border-box;
+	max-width: 960px;
+	min-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+header {
+	background: white;
+	border-bottom: 2px solid #cccccc;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.header-content {
+	max-width: 960px;
+	min-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.image-holder {
+	position: relative;
+	width: 274px;
+	float: left;
+}
+
+.project-label {
+	box-sizing: border-box;
+	position: absolute;
+	top: 156px;
+	background: #4AAAA5;
+	color: white;
+	height: 30px;
+	padding-top: 5px;
+	width: 100%;
+	text-align: center;
+	font-size: 19px;
+}
+
+.image-left {
+	margin-left: 0px;
+	margin-right: 17px;
+}
+
+.image-right {
+	margin-left: 17px;
+	margin-right: 0px;
+}
+
+.row1 {
+	margin-top: 5px;
+	margin-bottom: 40px;
+}
+
+.row2 {
+	margin-bottom: 40px;
+}
+
+.row3 {
+	margin-bottom: 10px;
+}
+
+label {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: grey;
+	margin-top: 15px;
+}
+
+#name {
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+#email {
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+input {
+	width: 100%;
+}
+
+textarea {
+	width: 100%;
+	height: 205px;
+	margin-top: 15px;
+}
+
+button {
+	background: #4AAAA5;
+	border: 0px;
+	height: 45px;
+	width: 120px;
+	color: white;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 17px;
+	margin-top: 23px;
+}
+
+footer {
+	background: #666666;
+	clear: both;
+	height: 80px;
+}
+
+#footer-text {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: white;
+	text-align: center;
+	padding-top: 40px;
+	font-size: 12px;
+}
+
+html, body {
+	height: 100%;
+}
+
+#wrap {
+	min-height: 100%;
+}
+
+#main {
+	overflow: auto;
+	padding-bottom: 150px;
+}
+
+#footer {
+	position: relative;
+	margin-top: -90px;
+	height: 90px;
+	clear: both;
+	border-top: 10px solid #4AAAA5;
+}
+
+body:before {
+	content: "";
+	height: 100%;
+	float: left;
+	width: 0;
+	margin-top: -32767px;
+}
